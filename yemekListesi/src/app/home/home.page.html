@@ -1,0 +1,19 @@
+<ion-header >
+  <ion-toolbar >
+    <img  src="../../assets/icon/Untitled-2.jpg" />
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+
+
+  <ion-item  *ngFor="let user1 of users2">
+   
+    <ion-button class="faturasol" (click)="islem(user1.tarih)">
+      {{user1.tarih}}
+    </ion-button>
+     
+  </ion-item>
+
+</ion-content>

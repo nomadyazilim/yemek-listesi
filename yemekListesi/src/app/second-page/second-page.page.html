@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons >
+      <ion-back-button text="Geri"  defaultHref="/home" ></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Yemek Listesi
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+
+
+  <ion-item  *ngFor="let user1 of users2">
+   
+    <ion-label >
+      <p>Tarih</p>
+      {{user1.tarih}}
+      <p>Çorba</p>
+      {{user1.corba}}
+      <p>Ana yemek</p>
+      {{user1.anayemek}}
+      <p>Yardımcı yemek</p>
+      {{user1.yardimci}}
+      <p>Dördüncü besin</p>
+      {{user1.dort}}
+      <p>Beşinci besin</p>
+      {{user1.bes}}
+    </ion-label>
+     
+  </ion-item>
+
+</ion-content>

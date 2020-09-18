@@ -1,0 +1,7 @@
+{
+  "name": "yemekListesi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
